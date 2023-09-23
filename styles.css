@@ -48,7 +48,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* global styles */
+/* global styles and Mobile Styles First*/
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
 
 :root {
@@ -121,7 +121,6 @@ main p:not(#about p) {
     padding: 0.25em 1.5em;
 }
 
-/* header styles */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +154,6 @@ nav {
     order: 2;
 }
 
-/* hamburger menu styles */
 #menu-toggle {
     display: flex;
     flex-direction: column;
@@ -248,7 +246,6 @@ nav {
     border-bottom: 1px solid var(--black);
 }
 
-/* intro section */
 #intro {
     padding: 0.5em 0;
 }
@@ -269,7 +266,6 @@ nav {
     grid-row: 1/2;
 }
 
-/* plan section */
 #plan {
     background-color: var(--yellow);
 }
@@ -305,7 +301,6 @@ nav {
     margin: 0 auto;
 }
 
-/* testimonials section */
 #testimonials {
     padding: 2em;
 }
@@ -338,7 +333,6 @@ nav {
     content: '"';
 }
 
-/* about section */
 #about {
     background-color: var(--blue);
 }
@@ -366,7 +360,6 @@ nav {
     max-height: 80px;
 }
 
-/* contact section */
 #contact {
     padding: 1em 0.5em 0;
 }
@@ -479,7 +472,6 @@ select::before {
     font-weight: bolder;
 }
 
-/* footer section */
 footer {
     display: flex;
     flex-direction: column;
@@ -502,7 +494,6 @@ footer a {
     padding: 1em 0 0;
 }
 
-/* media queries */
 @media (min-width: 650px) {
     header {
         display: grid;
